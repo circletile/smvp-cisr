@@ -2,8 +2,8 @@
 # Vivado v2020.2 (64-bit)
 # SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
 # IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
-# Start of session at: Fri Apr 23 00:12:26 2021
-# Process ID: 38552
+# Start of session at: Sat Apr 24 02:14:57 2021
+# Process ID: 30148
 # Current directory: E:/Documents/Vivado/Basys3/Projects/smvp_cisr/smvp_cisr.runs/synth_1
 # Command line: vivado.exe -log smvp_cisr_top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source smvp_cisr_top.tcl
 # Log file: E:/Documents/Vivado/Basys3/Projects/smvp_cisr/smvp_cisr.runs/synth_1/smvp_cisr_top.vds

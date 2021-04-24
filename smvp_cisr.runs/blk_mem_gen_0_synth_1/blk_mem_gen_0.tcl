@@ -93,7 +93,7 @@ set_property ip_output_repo e:/Documents/Vivado/Basys3/Projects/smvp_cisr/smvp_c
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
-read_ip -quiet E:/Documents/Vivado/Basys3/Projects/smvp_cisr/smvp_cisr.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci
+read_ip -quiet e:/Documents/Vivado/Basys3/Projects/smvp_cisr/smvp_cisr.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci
 set_property used_in_implementation false [get_files -all e:/Documents/Vivado/Basys3/Projects/smvp_cisr/smvp_cisr.gen/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0_ooc.xdc]
 
 OPTRACE "Adding files" END { }

@@ -1,9 +1,16 @@
 Vivado Simulator 2020.2
 Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
-Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 050ae34e96f9417ba0e96b7fc9a418b7 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L blk_mem_gen_v8_4_4 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot smvp_cisr_top_behav xil_defaultlib.smvp_cisr_top xil_defaultlib.glbl -log elaborate.log 
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 050ae34e96f9417ba0e96b7fc9a418b7 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L blk_mem_gen_v8_4_4 -L uvm -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot smvp_cisr_top_behav xil_defaultlib.smvp_cisr_top xil_defaultlib.glbl -log elaborate.log 
 Using 2 slave threads.
 Starting static elaboration
 Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 12 differs from formal bit length 1 for port 'row_len_in' [E:/Documents/Vivado/Basys3/Projects/smvp_cisr/smvp_cisr.srcs/sources_1/new/smvp_cisr_top.sv:96]
+WARNING: [VRFC 10-3091] actual bit length 12 differs from formal bit length 1 for port 'vecbuf_vector_in' [E:/Documents/Vivado/Basys3/Projects/smvp_cisr/smvp_cisr.srcs/sources_1/new/smvp_cisr_top.sv:103]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 12 for port 'data_in' [E:/Documents/Vivado/Basys3/Projects/smvp_cisr/smvp_cisr.srcs/sources_1/new/smvp_cisr_top.sv:259]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 12 for port 'data_in' [E:/Documents/Vivado/Basys3/Projects/smvp_cisr/smvp_cisr.srcs/sources_1/new/smvp_cisr_top.sv:283]
+WARNING: [VRFC 10-3091] actual bit length 12 differs from formal bit length 1 for port 'vector_out' [E:/Documents/Vivado/Basys3/Projects/smvp_cisr/smvp_cisr.srcs/sources_1/new/smvp_cisr_top.sv:107]
+WARNING: [VRFC 10-3823] variable 'fifo_rowlen_read_en' might have multiple concurrent drivers [E:/Documents/Vivado/Basys3/Projects/smvp_cisr/smvp_cisr.srcs/sources_1/new/smvp_cisr_top.sv:119]
+WARNING: [VRFC 10-3823] variable 'fifo_to_cisr_decoder' might have multiple concurrent drivers [E:/Documents/Vivado/Basys3/Projects/smvp_cisr/smvp_cisr.srcs/sources_1/new/smvp_cisr_top.sv:297]
 Completed static elaboration
 Starting simulation data flow analysis
 Completed simulation data flow analysis
@@ -16,6 +23,10 @@ Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_mem_module(C_...
 Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4(C_FAMILY="art...
 Compiling module xil_defaultlib.blk_mem_gen_0
 Compiling module xil_defaultlib.cisr_fifo
+Compiling module xil_defaultlib.cisr_pe_mult
+Compiling module xil_defaultlib.cisr_pe_channel
+Compiling module xil_defaultlib.cisr_pe_vecbuff
+Compiling module xil_defaultlib.cisr_pe_cisrdec
 Compiling module xil_defaultlib.smvp_cisr_top
 Compiling module xil_defaultlib.glbl
 Built simulation snapshot smvp_cisr_top_behav

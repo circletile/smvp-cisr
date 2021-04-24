@@ -1,7 +1,7 @@
-Running: xsim.dir/smvp_cisr_top_behav/xsimk.exe -simmode gui -wdb smvp_cisr_top_behav.wdb -simrunnum 0 -socket 54081
+Running: xsim.dir/smvp_cisr_top_behav/xsimk.exe -simmode gui -wdb smvp_cisr_top_behav.wdb -simrunnum 0 -socket 50861
 Design successfully loaded
-Design Loading Memory Usage: 6640 KB (Peak: 6640 KB)
-Design Loading CPU Usage: 46 ms
+Design Loading Memory Usage: 7148 KB (Peak: 7148 KB)
+Design Loading CPU Usage: 31 ms
 Simulation completed
-Simulation Memory Usage: 15548 KB (Peak: 15548 KB)
-Simulation CPU Usage: 2390 ms
+Simulation Memory Usage: 16216 KB (Peak: 16216 KB)
+Simulation CPU Usage: 1717 ms

@@ -1,7 +1,7 @@
 // Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
-// Date        : Fri Apr 23 21:03:10 2021
+// Date        : Sat Apr 24 12:26:41 2021
 // Host        : CCB-011 running 64-bit major release  (build 9200)
 // Command     : write_verilog -force -mode synth_stub
 //               e:/Documents/Vivado/Basys3/Projects/smvp_cisr/smvp_cisr.gen/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0_stub.v

@@ -1,0 +1,7 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+E:/Documents/Vivado/Basys3/Projects/smvp_cisr/smvp_cisr.gen/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v,1619226125,verilog,,E:/Documents/Vivado/Basys3/Projects/smvp_cisr/smvp_cisr.srcs/sources_1/new/smvp_cisr_top.v,,blk_mem_gen_0,,,,,,,,
+E:/Documents/Vivado/Basys3/Projects/smvp_cisr/smvp_cisr.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,,,,,,,
+E:/Documents/Vivado/Basys3/Projects/smvp_cisr/smvp_cisr.srcs/sources_1/new/smvp_cisr_top.v,1619244055,verilog,,,,PushButton_Debouncer;cisr_fifo;cisr_pe_mult;smvp_cisr_top,,,,,,,,

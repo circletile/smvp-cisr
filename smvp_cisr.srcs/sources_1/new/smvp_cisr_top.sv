@@ -1,21 +1,21 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
+// Company: University of Central Florida
+// Engineer: Chris Upchurch
 // 
 // Create Date: 04/24/2021 11:01:46 AM
-// Design Name: 
+// Design Name: CISR SMVP Accelerator
 // Module Name: smvp_cisr_top
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
+// Project Name: CDA5110 Final Project - Optional Objective
+// Target Devices: Digilent Basys3 (Artix-7 XC7A35T-1CPG236C)
+// Tool Versions: Vivado 2020.2
+// Description: Proof of concept for an CISR SmVP accelerator implemented as parallel queues and systolic array accumulators.
 // 
 // Dependencies: 
 // 
 // Revision:
 // Revision 0.01 - File Created
-// Additional Comments:
+// Additional Comments: Implementation is currenmtly incomplete, but has the major functional elements/modules implemented.
 // 
 //////////////////////////////////////////////////////////////////////////////////
 
